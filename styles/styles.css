@@ -1,0 +1,23 @@
+@import 'header.css';
+@import 'main.css';
+
+body, h1, h2, h3, p {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  inline-size: 1440px;
+  margin: 32px;
+}
+
+.ellipsis {
+  overflow: hidden;
+}
+
+.ellipsis > * {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
