@@ -27,16 +27,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid red;
 }
 
 .card__userdata img {
   width: 70px;
+  border: 1px solid red;
 }
 
 .data {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  border: 1px solid red;
 }
 
 .data h2 {
