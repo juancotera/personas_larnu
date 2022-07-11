@@ -9,3 +9,10 @@
   align-items: center;
 }
 
+.logo {
+  width: 75px;
+}
+
+.menu ul li {
+  list-style: none;
+}

@@ -11,6 +11,20 @@ body, h1, h2, h3, p {
   margin: 32px;
 }
 
+.buttom {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #3a0ca3;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.buttom:active {
+  padding: 7px;
+}
+
 .ellipsis {
   overflow: hidden;
 }
